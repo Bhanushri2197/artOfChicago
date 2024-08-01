@@ -1,0 +1,124 @@
+body{
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.artOfChicagoBlock{
+    background: #F8EDE3;
+    min-height: 100vh;
+}
+.artOfChicagoBlock .navbar {
+    padding: 0;
+    background: #DFD3C3;
+}
+.artOfChicagoBlock .navbar .navbar-brand{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #8D493A;
+   
+}
+.artOfChicagoBlock .navbar .logoImg{
+    height: 48px;
+    margin-right: 5px;
+}
+.artOfChicagoBlock .cardOfArtsBlock {
+  padding: 70px 0;
+}
+.artOfChicagoBlock .cardOfArtsBlock h1{
+    color: #8D493A;
+  }
+.artOfChicagoBlock .cardOfArtsBlock .card-group{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.artOfChicagoBlock .cardOfArtsBlock .card{
+    width: 230px;
+    flex: unset;
+    margin: 10px !important;
+    box-shadow: 1px 1px 8px #c9c9c9;
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+.artOfChicagoBlock .cardOfArtsBlock .card:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 8px #8D493A;
+}
+.artOfChicagoBlock .cardOfArtsBlock .card .cardImg{
+    height: 200px;
+    background-size: contain;
+} 
+.artOfChicagoBlock .cardOfArtsBlock .card .card-title{
+    font-size: 15px;
+    /* truncate the text within 3 lines */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.artOfChicagoBlock .cardOfArtsBlock .card .cardDes{
+    font-size: 13px;
+    color: #939393;
+    margin-bottom: 0;
+}
+.artOfChicagoBlock .cardOfArtsBlock .card .card-footer{
+    padding: 0;
+    background: none;
+}
+.btnPrimary{
+    border: 2px solid transparent;
+    background: #8D493A;
+    color: #fff; 
+}
+.btnPrimary:hover {
+    border: 2px solid #8D493A;
+    background: transparent;
+    color: #8D493A; 
+}
+.artOfChicagoBlock .cardOfArtsBlock .card .downloadBtn{
+    width: 100%;
+    padding: 6px;
+    border: 0;
+    background: #8D493A;
+    color: #fff;
+}
+.artOfChicagoBlock .cardOfArtsBlock .card .downloadBtn:hover{
+    background: #a26254;
+}
+
+/* pagination */
+
+.paginationBlock .pageLink{
+    border: 1px solid #8D493A;
+    padding: 5px 7px;
+    font-size: 11px;
+    background: #fff;
+    color: #717171;
+    text-decoration: none;
+    margin: 2px;
+    box-shadow: 1px 1px 3px #928a88;
+    border-radius: 5px;
+}
+.paginationBlock .pageLink:hover,.pageLink.active{
+    background: #8D493A;
+    color: #fff;
+}
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pageLink {
+    margin: 0 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
